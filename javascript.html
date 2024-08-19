@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="demo"></h2>
+    <label for="car"></label>
+    <select id="car" onchange="change()">
+        <option>Honda</option>
+        <option>toyato</option>
+        <option>Maruthi</option>
+    </select>
+    <h2 id="change"></h2>
+    <button id="btn" onclick="button()">Click</button>
+    <script>
+        var name;
+        name=4;
+        let color=4;
+        function change(z){
+            var z=document.getElementById("car").value;
+            document.getElementById("change").innerHTML=z;
+        }
+        function buttn(){
+             alert('Hai Welcome');
+        }
+    </script>
+</body>
+</html>
